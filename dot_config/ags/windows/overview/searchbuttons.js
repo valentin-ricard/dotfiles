@@ -167,6 +167,6 @@ export const SearchButton = ({ text = '' }) => searchItem({
     content: `${text}`,
     onActivate: () => {
         App.closeWindow('overview');
-        execAsync(['xdg-open', `https://www.google.com/search?q=${text}`]).catch(print);
+        execAsync(['xdg-open', `https://kagi.com/search?q=${text}`]).catch(print);
     },
 });

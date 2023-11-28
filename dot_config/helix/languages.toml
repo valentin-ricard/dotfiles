@@ -1,0 +1,11 @@
+[[language]]
+name= "hypr"
+scope= "source.conf"
+file-types= [ "conf"]
+roots= [ "hyprland.conf"]
+comment-token= "#"
+grammar= "hypr"
+
+[[grammar]]
+name= "hypr"
+source= { git= "https://github.com/luckasRanarison/tree-sitter-hypr", rev= "master"}
