@@ -346,7 +346,7 @@ export const SearchAndWindows = () => {
 
             else {
                 App.closeWindow('overview');
-                execAsync(['xdg-open', `https://www.google.com/search?q=${text}`]).catch(print);
+                execAsync(['xdg-open', `https://kagi.com/search?q=${text}`]).catch(print);
             }
         },
         // Actually onChange but this is ta workaround for a bug
